@@ -86,4 +86,26 @@ Cada caso de uso descreve o fluxo de ações, pré-condições e pós-condiçõe
 #### 4.2 Diagrama de Classe 
 O diagrama de classe deve representar as principais entidades do sistema, como **Cliente**, **Produto**, **Pedido**, **ItemPedido**, **Serviço** e **Relatório**, mostrando relacionamentos, atributos e métodos relevantes.
 
-#### 4.3
+#### 4.3 Diagramas de Sequência 
+Podem ser detalhados os fluxos:
+- **Fluxo de Criação de Pedido** (mostrando interação entre Atendente, Sistema, Estoque, etc.)
+- **Fluxo de Emissão de Relatório** (mostrando como os dados são buscados no banco de dados).
+
+---
+
+### Rastreabilidade de Requisitos 
+
+#### 5.1 Matriz de Rastreabilidade 
+A matriz de rastreabilidade deve indicar a relação entre cada requisito e seus artefatos correspondentes (caso de uso, diagramas, componentes do sistema, etc.). Por exemplo:
+
+| Requisito | Caso de Uso | Componente/Classe | Status       |
+|-----------|------------|--------------------|--------------|
+| RF001     | UC01        | Cliente           | Atendido     |
+| RF002     | UC02        | Produto           | Atendido     |
+| RF003     | UC03        | Pedido            | Em progresso |
+| ...       | ...         | ...               | ...          |
+
+---
+
+### Conclusão 
+Este documento serve como base para o desenvolvimento do sistema de pedidos para o petshop. Futuras revisões devem ser registradas no histórico de versões para manter o controle de mudanças e melhorias contínuas.

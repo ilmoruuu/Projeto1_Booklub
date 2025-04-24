@@ -83,10 +83,10 @@ O sistema de pedidos para o petshop se encaixa como uma solução integrada para
 
 Cada caso de uso descreve o fluxo de ações, pré-condições e pós-condições para cada funcionalidade crítica do sistema.
 
-#### 4.2 Diagrama de Classe 
+#### 4.2 Diagrama de Classe (Definir o diagrama de pelo menos um caso de uso)
 O diagrama de classe deve representar as principais entidades do sistema, como **Cliente**, **Produto**, **Pedido**, **ItemPedido**, **Serviço** e **Relatório**, mostrando relacionamentos, atributos e métodos relevantes.
 
-#### 4.3 Diagramas de Sequência 
+#### 4.3 Diagramas de Sequência (Definir o fluxo de pelo menos um caso de uso)
 Podem ser detalhados os fluxos:
 - **Fluxo de Criação de Pedido** (mostrando interação entre Atendente, Sistema, Estoque, etc.)
 - **Fluxo de Emissão de Relatório** (mostrando como os dados são buscados no banco de dados).

@@ -1,6 +1,6 @@
 # 📘 Diagrama de Classes – Backend do Projeto Booklub
 
-![Diagrama de classes do backend do projeto](https://i.imgur.com/no2geRD.png)
+![Diagrama de classes do backend do projeto](https://i.imgur.com/mPMsgcj.jpeg)
 
 > Diagrama gerado para representar a estrutura de classes, entidades, serviços, controladores e gateways do backend da aplicação **Booklub**.
 

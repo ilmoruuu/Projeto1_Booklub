@@ -68,12 +68,3 @@ As classes em **azul claro** representam os controladores REST:
 * **BookController**
 
 Esses controladores são responsáveis por receber requisições HTTP e delegar a lógica aos serviços correspondentes.
-
----
-
-## Relações Importantes
-
-* Os serviços dependem de entidades (relação de *uso*, com setas tracejadas no UML).
-* Os repositórios são utilizados por serviços via injeção de dependência (associação).
-* Controladores utilizam serviços diretamente.
-* Entidades não possuem dependência com serviços ou controladores, respeitando a separação de camadas.

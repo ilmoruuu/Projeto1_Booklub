@@ -406,28 +406,28 @@ Esses controladores são responsáveis por receber requisições HTTP e delegar 
 #### 5.1 Matriz de Rastreabilidade 
 ### ✅ Matriz de Rastreabilidade – Booklub
 
-| Requisito | Caso de Uso                       | Componente/Classe                       | Status    |
-|-----------|-----------------------------------|-----------------------------------------|-----------|
-| RF001     | UC01 - Cadastrar Usuário          | Usuario                                 | A definir |
-| RF002     | UC02 - Autenticar Usuário         | Autenticacao, Usuario                   | A definir |
-| RF003     | UC03 - Editar Perfil              | Usuario                                 | A definir |
-| RF004     | UC04 - Criar Clube                | Clube                                   | A definir |
-| RF005     | UC05 - Participar de Clube        | Clube, Membro                           | A definir |
-| RF006     | UC06 - Pesquisar Clubes           | Clube                                   | A definir |
-| RF007     | UC07 - Definir Tipo de Clube      | Clube                                   | A definir |
-| RF008     | UC08 - Definir Livro do Mês       | Clube, Livro                            | A definir |
-| RF009     | UC09 - Buscar Livro               | Livro                                   | A definir |
-| RF010     | UC10 - Definir Livro Seguinte     | Clube, Livro                            | A definir |
-| RF011     | UC11 - Definir Data do Encontro   | Encontro                                | A definir |
-| RF012     | UC12 - Definir Local do Encontro  | Encontro                                | A definir |
-| RF013     | UC13 - Avaliar Livro              | Avaliacao, Livro                        | A definir |
-| RF014     | UC14 - Avaliar Dificuldade        | AvaliacaoDificuldade, Livro             | A definir |
-| RF015     | UC15 - Escrever Avaliação         | Review, Livro, Usuario                  | A definir |
-| RF016     | UC16 - Aceitar Membro             | Membro, Clube                           | A definir |
-| RF017     | UC17 - Recusar Membro             | Membro, Clube                           | A definir |
-| RF018     | UC18 - Adicionar Amigo            | Amizade, Usuario                        | A definir |
-| RF019     | UC19 - Remover Amigo              | Amizade, Usuario                        | A definir |
-| RF020     | UC20 - Visualizar Notificações    | Notificacao, Usuario                    | A definir |
+| Requisito | Caso de Uso                        | Componente/Classe(s)                                                   | Status    |
+|-----------|------------------------------------|------------------------------------------------------------------------|-----------|
+| RF001     | UC01 - Cadastrar Usuário           | AuthServiceImpl, UserServiceImpl, UserRepository, UserController       | Completo  |
+| RF002     | UC02 - Autenticar Usuário          | AuthServiceImpl, KeycloakGateway, UserController                       | Completo  |
+| RF003     | UC03 - Editar Perfil               | UserServiceImpl, UserRepository, UserController                        | Completo  |
+| RF004     | UC04 - Criar Clube                 | ClubServiceImpl, ClubRepository, User, Club, UserController            | Completo  |
+| RF005     | UC05 - Participar de Clube         | ClubMemberServiceImpl, ClubPendingEntry, ClubRepository                | Completo  |
+| RF006     | UC06 - Pesquisar Clubes            | ClubServiceImpl, ClubRepository, UserController                        | Completo  |
+| RF007     | UC07 - Definir Tipo de Clube       | ClubServiceImpl, Club, ClubRepository                                  | Completo  |
+| RF008     | UC08 - Definir Livro do Mês        | ClubServiceImpl, ClubRepository, BookUserServiceImpl, BookUser         | Completo  |
+| RF009     | UC09 - Buscar Livro                | GoogleBooksServiceImpl, GoogleBooksGateway, BookController             | Completo  |
+| RF010     | UC10 - Definir Livro Seguinte      | BookUserServiceImpl, UserRepository, ClubRepository                    | Completo  |
+| RF011     | UC11 - Definir Data do Encontro    | BookUserServiceImpl, BookUserRepository, ClubRepository                | Completo  |
+| RF012     | UC12 - Definir Local do Encontro   | BookUserServiceImpl, BookUserRepository, ClubRepository                | Completo  |
+| RF013     | UC13 - Avaliar Livro               | BookRatingsServiceImpl, BookRatingsRepository, BookRatings             | Completo  |
+| RF014     | UC14 - Avaliar Dificuldade         | BookRatingsServiceImpl, BookRatingsRepository                          | Completo  |
+| RF015     | UC15 - Escrever Avaliação          | BookRatingsServiceImpl, BookRatingsRepository                          | Completo  |
+| RF016     | UC16 - Aceitar Membro              | ClubMemberServiceImpl, ClubPendingEntry, ClubRepository                | Completo  |
+| RF017     | UC17 - Recusar Membro              | ClubMemberServiceImpl, ClubPendingEntry                                | Completo  |
+| RF018     | UC18 - Adicionar Amigo             | UserController                                                         | Completo  |
+| RF019     | UC19 - Remover Amigo               | UserController                                                         | Completo  |
+| RF020     | UC20 - Visualizar Notificações     | UserController                                                         | Completo  |
 
 ---
 

@@ -323,6 +323,7 @@ Cada caso de uso descreve o fluxo de ações, pré-condições e pós-condiçõe
 #### Diagrama de Casos de Uso
 ![Diagrama de casos de uso do projeto](https://imgur.com/iyGCRuz.jpeg)
 
+> Diagrama gerado para representar as interações em casos de usos pelo usuário do **Booklub**
 
 #### 4.2 Diagramas de Classe 
 #### Backend do Projeto Booklub
@@ -399,7 +400,11 @@ Esses controladores são responsáveis por receber requisições HTTP e delegar 
 
 #### 4.3 Diagramas de Sequência 
 
----
+![Diagrama de Sequência do Projeto (Em sua versão macro)](https://imgur.com/a/f7TuOpK.jpeg)
+
+> Diagrama gerado para representar os fluxos entre componentes do  **Booklub**
+
+
 
 ### Rastreabilidade de Requisitos 
 
